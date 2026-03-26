@@ -1,0 +1,30 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.4)
+
+2026-03-26T18:08:03.808+03:00  INFO 678460 --- [           main] wyden.io.audit.AuditApplicationKt        : Starting AuditApplicationKt v0.0.1-SNAPSHOT using Java 21.0.10 with PID 678460 (/home/ds/IdeaProjects/wyden/audit/build/libs/audit-0.0.1-SNAPSHOT.jar started by ds in /home/ds/IdeaProjects/wyden/audit)
+2026-03-26T18:08:03.811+03:00  INFO 678460 --- [           main] wyden.io.audit.AuditApplicationKt        : The following 1 profile is active: "color"
+2026-03-26T18:08:04.869+03:00  INFO 678460 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-26T18:08:04.879+03:00  INFO 678460 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-26T18:08:04.880+03:00  INFO 678460 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26T18:08:04.900+03:00  INFO 678460 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1035 ms
+2026-03-26T18:08:05.624+03:00  INFO 678460 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-26T18:08:05.628+03:00  INFO 678460 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-03-26T18:08:05.664+03:00  INFO 678460 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#38de5daf:0/SimpleConnection@5a899811 [delegate=amqp://guest@127.0.0.1:5672/, localPort=57234]
+2026-03-26T18:08:05.725+03:00  INFO 678460 --- [           main] wyden.io.audit.AuditApplicationKt        : Started AuditApplicationKt in 2.246 seconds (process running for 2.613)
+2026-03-26T18:08:05.727+03:00  WARN 678460 --- [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-26T18:08:05.727+03:00  WARN 678460 --- [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-26T18:08:57.394+03:00  INFO 678460 --- [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-26T18:08:57.394+03:00  INFO 678460 --- [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-26T18:08:57.395+03:00  INFO 678460 --- [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-26T18:08:57.718+03:00  INFO 678460 --- [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-26T18:08:57.719+03:00  INFO 678460 --- [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-26T18:08:57.722+03:00  INFO 678460 --- [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-26T18:08:57.723+03:00  INFO 678460 --- [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26T18:08:57.725+03:00  INFO 678460 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
